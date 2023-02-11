@@ -6,15 +6,55 @@
   .contact {
     display: none;
   }
+
+  .btn-pay button {
+    display: none;
+  }
+
+  video {
+    display: none;
+  }
 }
 
 /* tablet */
-@media (min-width: 513) and (max-width: 1023px) {
+@media (min-width: 513px) and (max-width: 1023px) {
+  .section-0 {
+    text-align: center;
+    margin: 0px auto;
+    width: 70%;
+  }
+  
   .contact {
+    display: none;
+  }
+
+  .btn-pay button {
+    display: none;
+  }
+
+  video {
+    width: 50%;
+  }
+
+  .home-3 {
     display: none;
   }
 }
 
 /* desktop */
 @media (min-width: 1024px) {
+  .section-0 {
+    text-align: center;
+    margin: 0px auto;
+    width: 50%;
+  }
+
+  .section-1 {
+    display: flex;
+    flex-flow: row;
+  }
+
+  video {
+    width: 40%;
+  }
 }

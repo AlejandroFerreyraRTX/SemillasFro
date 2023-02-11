@@ -1,2 +1,21 @@
 @import "../utilities/mixins";
 @import "../utilities/variables";
+
+body {
+  background: $solor-6;
+}
+
+.paragraph-home-1 {
+  @include paragraph-base;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.section-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
