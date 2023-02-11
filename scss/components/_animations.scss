@@ -1,0 +1,27 @@
+.animation-1 {
+  background: linear-gradient(to right, #00495f 40%, #687664 50%, #3b695f 70%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradiant-p 5s linear infinite;
+
+  @keyframes gradiant-p {
+    to {
+      background-position: 200% center;
+    }
+  }
+}
+
+.animation-2 {
+  animation: appear 3s;
+
+  @keyframes appear {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+}

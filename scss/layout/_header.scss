@@ -1,2 +1,25 @@
 @import "../utilities/mixins";
 @import "../utilities/variables";
+
+header {
+  background: $solor-5;
+
+  h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.3rem;
+    font-family: $typography-1;
+    padding-bottom: 0.5rem;
+  }
+
+  nav {
+    div {
+      a {
+        font-family: $typography-1;
+      }
+    }
+  }
+}
+
+.main-logo {
+  width: 3.5rem;
+}
