@@ -12,7 +12,7 @@
   font-weight: bold;
   color: #292929;
   overflow: hidden;
-  background-color: $solor-6;
+  background-color: $color-6;
   text-transform: uppercase;
   transition: 1s all ease-in-out;
 
@@ -37,7 +37,7 @@
     border-radius: 45%;
     position: absolute;
     content: "";
-    background-color: $solor-7;
+    background-color: $color-7;
     transition: 2s all ease-in-out;
     animation: wave 9s infinite linear;
   }

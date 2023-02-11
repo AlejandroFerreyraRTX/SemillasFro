@@ -1,2 +1,25 @@
 @import "../utilities/mixins";
 @import "../utilities/variables";
+
+article {
+  img {
+    min-width: 10rem;
+    width: 70%;
+  }
+
+  h3 {
+    font-family: $typography-1;
+  }
+
+  p {
+    font-family: $typography-2;
+  }
+
+  button {
+    background: $color-5;
+
+    a {
+      font-family: $typography-1;
+    }
+  }
+}

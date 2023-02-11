@@ -23,7 +23,7 @@
     margin: 0px auto;
     width: 70%;
   }
-  
+
   .contact {
     display: none;
   }
@@ -56,5 +56,11 @@
 
   video {
     width: 40%;
+  }
+
+  article {
+    border: 0.1rem solid #000;
+    border-radius: 1rem;
+    padding: 0.5rem;
   }
 }

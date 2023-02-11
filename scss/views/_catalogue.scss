@@ -1,2 +1,8 @@
 @import "../utilities/mixins";
 @import "../utilities/variables";
+
+.h2-catalogue {
+  font-size: 2rem;
+  font-family: $typography-2;
+  color: $color-1;
+}
