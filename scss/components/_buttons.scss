@@ -1,2 +1,71 @@
 @import "../utilities/mixins";
 @import "../utilities/variables";
+
+.button-1 {
+  position: relative;
+  padding: 10px 50px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-family: $typography-1;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  color: #292929;
+  overflow: hidden;
+  background-color: $solor-6;
+  text-transform: uppercase;
+  transition: 1s all ease-in-out;
+
+  &::before {
+    width: 400px;
+    height: 400px;
+    top: -370px;
+    left: -120px;
+    border-radius: 45%;
+    position: absolute;
+    content: "";
+    background-color: #ececec;
+    transition: 2s all ease-in-out;
+    animation: wave 10s infinite linear;
+  }
+
+  &::after {
+    width: 400px;
+    height: 400px;
+    top: -360px;
+    left: -125px;
+    border-radius: 45%;
+    position: absolute;
+    content: "";
+    background-color: $solor-7;
+    transition: 2s all ease-in-out;
+    animation: wave 9s infinite linear;
+  }
+
+  & span {
+    position: relative;
+    z-index: 1;
+  }
+
+  &:hover {
+    color: #fff;
+  }
+
+  &:hover::before {
+    top: -450px;
+  }
+
+  &:hover::after {
+    top: -440px;
+  }
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

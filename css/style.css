@@ -33,6 +33,67 @@
 /* typography */
 /* colors */
 /* typography */
+.button-1 {
+  position: relative;
+  padding: 10px 50px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-family: "Amatic SC", cursive;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  color: #292929;
+  overflow: hidden;
+  background-color: #9bbe83;
+  text-transform: uppercase;
+  transition: 1s all ease-in-out;
+}
+.button-1::before {
+  width: 400px;
+  height: 400px;
+  top: -370px;
+  left: -120px;
+  border-radius: 45%;
+  position: absolute;
+  content: "";
+  background-color: #ececec;
+  transition: 2s all ease-in-out;
+  animation: wave 10s infinite linear;
+}
+.button-1::after {
+  width: 400px;
+  height: 400px;
+  top: -360px;
+  left: -125px;
+  border-radius: 45%;
+  position: absolute;
+  content: "";
+  background-color: rgba(236, 236, 236, 0.5019607843);
+  transition: 2s all ease-in-out;
+  animation: wave 9s infinite linear;
+}
+.button-1 span {
+  position: relative;
+  z-index: 1;
+}
+.button-1:hover {
+  color: #fff;
+}
+.button-1:hover::before {
+  top: -450px;
+}
+.button-1:hover::after {
+  top: -440px;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 /* colors */
 /* typography */
 /* colors */
@@ -41,6 +102,10 @@
 /* typography */
 /* colors */
 /* typography */
+footer {
+  background: #c4d8c0;
+}
+
 /* colors */
 /* typography */
 /* colors */
@@ -66,6 +131,19 @@ header nav div a {
 /* typography */
 /* colors */
 /* typography */
+/* mobile */
+@media (max-width: 512px) {
+  .contact {
+    display: none;
+  }
+}
+/* tablet */
+@media (min-width: 513) and (max-width: 1023px) {
+  .contact {
+    display: none;
+  }
+}
+/* desktop */
 /* colors */
 /* typography */
 /* colors */

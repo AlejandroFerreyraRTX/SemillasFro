@@ -1,2 +1,20 @@
 @import "../utilities/mixins";
 @import "../utilities/variables";
+
+/* mobile */
+@media (max-width: 512px) {
+  .contact {
+    display: none;
+  }
+}
+
+/* tablet */
+@media (min-width: 513) and (max-width: 1023px) {
+  .contact {
+    display: none;
+  }
+}
+
+/* desktop */
+@media (min-width: 1024px) {
+}
