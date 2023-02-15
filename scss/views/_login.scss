@@ -1,2 +1,10 @@
 @import "../utilities/mixins";
 @import "../utilities/variables";
+
+.title-log {
+  font-family: $typography-2;
+}
+
+.bg-color {
+  background: $color-5;
+}
