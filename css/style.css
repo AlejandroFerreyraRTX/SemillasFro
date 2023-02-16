@@ -227,6 +227,9 @@ header nav div a {
     border-radius: 1rem;
     padding: 0.5rem;
   }
+  .contact-mob {
+    display: none;
+  }
 }
 /* colors */
 /* typography */
@@ -295,6 +298,10 @@ body {
   text-indent: 1.5rem;
   letter-spacing: 0.1rem;
   font-family: "Amatic SC", cursive;
+}
+
+.mobile-contact {
+  font-size: 1.2rem;
 }
 
 /* colors */
