@@ -238,6 +238,10 @@ header nav div a {
   background: #c4d8c0;
 }
 
+.sch ul {
+  list-style: none;
+}
+
 /* colors */
 /* typography */
 .h2-catalogue {
