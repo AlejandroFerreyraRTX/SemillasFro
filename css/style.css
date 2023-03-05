@@ -130,6 +130,10 @@
   transform-origin: left;
 }
 
+.btn-color {
+  color: #2d593d;
+}
+
 /* colors */
 /* typography */
 article img {
